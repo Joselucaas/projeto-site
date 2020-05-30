@@ -19,6 +19,15 @@ body main header img#git {
     margin-top: -20px;
 }
 
+body main header img#prin {
+    position: relative;
+    margin-top: -20px;
+}
+
+body main article#artigo {
+    margin-top: -40px;
+}
+
 body main  header article {
     position: absolute;
     margin-left: 300px;
