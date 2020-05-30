@@ -8,9 +8,14 @@ body main article p {
     text-indent: 10px;
 }
 
-body main header img {
+body main header article p#gh {
+    margin-top: -63px;
+    margin-left: 40px;
+}
+
+body main header img#git {
     position: relative;
-    margin-left: 15px;
+    margin-left: -70px;
     margin-top: -20px;
 }
 
