@@ -16,7 +16,7 @@ ul#gie li{
 
 body main header img#prin {
     position: relative;
-    margin-top: -20px;
+    margin-top: -55px;
 }
 
 body main article#artigo {
@@ -63,7 +63,7 @@ a {
 article#img { 
     position: absolute;
     margin-left: 450px;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 /*Formatação da lista*/
