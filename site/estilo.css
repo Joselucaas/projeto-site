@@ -1,3 +1,4 @@
+/*Formatação do corpo*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -36,20 +37,33 @@ main {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
 }
 
+/*Formatação das letras*/
+
 h1 {
+    font-family: Ink Free;
     text-align: center;
-    font-size: 2em;
+    font-size: 40pt;
     color: rgb(25, 114, 117);
 }
 
 h2 {
-    font-size: 1.5em;
+    text-indent: 10px;
+    font-family: Ink Free;
+    font-size: 2em;
     color: rgb(25, 114, 117);
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+/*Formatação das Redes Sociais*/
+
+article#img { 
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 50px;
 }
 
 /*Formatação da lista*/
