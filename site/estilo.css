@@ -56,7 +56,7 @@ a {
 
 ul#album-cert {
     width: 700px;
-    margin: 0 65px;
+    margin: 0 auto;
     padding: 50px;
     overflow: hidden;
     list-style: none;
