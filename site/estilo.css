@@ -30,7 +30,7 @@ body main  header article {
 
 main {
     background-color: rgba(255, 255, 255, 0.733);
-    width: 800px;
+    width: 890px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
@@ -56,7 +56,7 @@ a {
 
 ul#album-cert {
     width: 700px;
-    margin: 0 auto;
+    margin: 0 65px;
     padding: 50px;
     overflow: hidden;
     list-style: none;
@@ -67,7 +67,50 @@ ul#album-cert li {
     width: 280px;
     height: 200px;
     margin: 25px;
-    border: 5px solid black;
+    border: 3px solid rgba(131, 124, 124, 0.452);
     background-color: white;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+ul#album-cert li#certi01 {
+    background-image: url('IMG/HTML-B.png');
+    background-position: center;
+    background-size: 793px 525px;
+    background-color: white;
+}
+
+ul#album-cert li#certi01:hover {
+    background-position: 0px 0px;
+    background-size: 280px 200px;
+}
+
+ul#album-cert li#certi02 {
+    background-image: url('IMG/EXCEL.jpg');
+    background-position: center;
+    background-size: 793px 525px;
+    background-color: white;
+}
+
+ul#album-cert li#certi02:hover {
+    background-position: 0px 0px;
+    background-size: 280px 200px;
+}
+
+ul#album-cert li span {
+    opacity: 0;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+    background-color: rgba(131, 124, 124, 0.452);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#album-cert li:hover {
+    -webkit-transform: scale(1.5);
+    transition: 1s;
+}
+
+ul#album-cert li:hover span {
+    opacity: 1;
 }
