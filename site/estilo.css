@@ -67,8 +67,6 @@ p {
 /*Formatação das Redes Sociais*/
 
 article#img { 
-    /*margin-left: 450px;
-    margin-top: 35px;*/
     display: flex;
     align-items: center;
 }
@@ -77,65 +75,3 @@ article#img span {
     margin: 10px;
 }
 
-/*Formatação da lista*/
-
-ul#album-cert {
-    width: 700px;
-    margin: 0 auto;
-    padding: 50px;
-    overflow: hidden;
-    list-style: none;
-}
-
-ul#album-cert li {
-    float: left;
-    width: 280px;
-    height: 200px;
-    margin: 25px;
-    border: 3px solid rgba(131, 124, 124, 0.452);
-    background-color: white;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-}
-
-ul#album-cert li#certi01 {
-    background-image: url('IMG/HTML-B.png');
-    background-position: center;
-    background-size: 793px 525px;
-    background-color: white;
-}
-
-ul#album-cert li#certi01:hover {
-    background-position: 0px 0px;
-    background-size: 280px 200px;
-}
-
-ul#album-cert li#certi02 {
-    background-image: url('IMG/EXCEL.jpg');
-    background-position: center;
-    background-size: 793px 525px;
-    background-color: white;
-}
-
-ul#album-cert li#certi02:hover {
-    background-position: 0px 0px;
-    background-size: 280px 200px;
-}
-
-ul#album-cert li span {
-    opacity: 0;
-    color: black;
-    text-shadow: 1px 1px 1px white;
-    background-color: rgba(131, 124, 124, 0.452);
-    font-size: 9pt;
-    line-height: 370px;
-    padding: 5px;
-}
-
-ul#album-cert li:hover {
-    -webkit-transform: scale(1.5);
-    transition: 1s;
-}
-
-ul#album-cert li:hover span {
-    opacity: 1;
-}
