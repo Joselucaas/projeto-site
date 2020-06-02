@@ -75,6 +75,9 @@ article#img span {
     margin: 10px;
 }
 
+article#img span.msg {
+    margin-bottom: 1px;
+}
 /* Formatação dos Certificados */
 
 #gallery-container {
