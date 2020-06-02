@@ -75,3 +75,41 @@ article#img span {
     margin: 10px;
 }
 
+/*---------------------------*/
+/* Formatação dos Certificados */
+
+#gallery-container {
+    position: relative;
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+div#oi {
+    border: 1px solid black;
+    margin: 30px;
+    margin-left: -70px;
+    margin-right: 100px;
+}
+
+img.gallery-preview {
+   width: 290px;
+   height: 200px;
+   display: flex;
+   align-items: center;
+}
+
+img.gallery-fullsize {
+    position: fixed;
+    top: 15px;
+    left: 50px;
+    display: none;   
+}
+
+img.gallery-preview:hover  ~ img.gallery-fullsize {
+    display: block;
+}
