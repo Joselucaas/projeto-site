@@ -72,11 +72,11 @@ article#img {
 }
 
 article#img span {
-    margin: 10px;
+    margin: 2px;
 }
 
 article#img span.msg {
-    margin-bottom: 1px;
+    margin-bottom: -6px;
 }
 /* Formatação dos Certificados */
 
