@@ -80,38 +80,46 @@ article#img span.msg {
 }
 /* Formatação dos Certificados */
 
-#gallery-container {
+legend {
     position: relative;
-    width: 500px;
-    height: auto;
-    padding: 30px;
-    margin-left: 150px;
+    margin: 0px 100px;
+    display: flex; 
+    cursor: pointer;
+}   
+
+.img-edit img.litlle {
+    width: 290px;
+    height: 200px;
+    padding: 20px;
     display: flex;
     align-items: center;
-    cursor: pointer;
+    -webkit-transition: all 2s;
 }
 
-div#oi {
-    border: 1px solid black;
-    margin: 30px;
-    margin-left: -70px;
-    margin-right: 100px;
-}
-
-img.gallery-preview {
-   width: 290px;
-   height: 200px;
-   display: flex;
-   align-items: center;
-}
-
-img.gallery-fullsize {
+.img-edit .big {
+    width: 793px;
+    height: 525px;
     position: fixed;
-    top: 15px;
-    left: 280px;
-    display: none;   
+    top: 40px;
+    margin-left: 55px;
+    border: 2px solid black;
+    display: none;
 }
 
-img.gallery-preview:hover  ~ img.gallery-fullsize {
+.img-edit #grand {
+    top: 40px;
+    margin: 0 0 0 -400px;
+}
+
+.img-edit #GD {
+    top: 40px;
+    margin-left: -70px;
+}
+
+#back {
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.litlle:hover ~ .big {
     display: block;
 }
