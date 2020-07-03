@@ -1,19 +1,25 @@
 <html>
+
     <head>
         <title>Certificados - José Lucas </title>
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="main.css">
     </head>
+
     <body>
         <header class="menu">
             <a href="index.html">Home</a>
             <a href="certificates.html">Certificados</a>
         </header>
-        
+
+        <h1 class="title">Certificados</h1>
+
         <section>
             <div class="cards">
 
-                <div class="card">
-                    <img src="IMG/HTML.png" alt="HTML">
+                <div class="card" id="HTML">
+                    <img src="IMG/HTML.jpg" alt="HTML">
            
                     <div class="report_course">
                         <p>Curso HTML Avançado</p>
@@ -24,7 +30,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" id="EXCEL">
                     <img src="IMG/EXCEL.jpg" alt="HTML">
            
                     <div class="report_course">
@@ -36,7 +42,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" id="C-sharp">
                     <img src="IMG/C-sharp.jpg" alt="HTML">
            
                     <div class="report_course">
@@ -49,5 +55,20 @@
                 </div>
             </div>
         </section>
+
+        <div class="modal-overlay">
+            <div class="modal">
+
+                <div class="certificates_img">
+                    <img src="IMG/C-sharp.jpg" alt="">
+                </div>
+
+                <i class="material-icons">close</i>
+
+            </div>
+        </div>
+        
+        <script src="main.js"></script>
+
     </body>
 </html>
